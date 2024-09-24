@@ -18,15 +18,20 @@
             </button>
         </div>
     </div>
+
+
 <!--Login-->
     <div>
         <fieldset>
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
-            <button type="submit">Login</button>
+            <form>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
         </fieldset>
     </div>    
 
+    
 <!--Image W/Search Bar-->    
     <div>
         <div>
@@ -35,7 +40,7 @@
         <form action="">
             <fieldset>
                 <input type="Search" placeholder="Wondering about..." ><br>
-                <button type="submit">Submit</button>
+                <button type="submit">Ask the Community!</button>
             </fieldset>
         </form>
     </div>
@@ -47,12 +52,13 @@
     </div>
 
 <!--Comments section-->
-    <div>
-        <fieldset>
+    <div >
+        <fieldset id="comments">
             <div id="Header">
                 <h2>Only positive and helpful comments allowed...</h2>
             </div>
-            <input type="text" placeholder="What's on your mind?">
+            <!-- <input type="text" placeholder="What's on your mind?"> -->
+            <textarea id="multiText" rows="10" cols="50"></textarea><br>
         </fieldset>
     </div>
 
@@ -61,6 +67,7 @@
         <a href="#">Contact Us</a><br>
         <a href="#">About</a>
     </div>
+    
 
     
 </body>

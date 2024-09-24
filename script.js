@@ -18,6 +18,15 @@ fieldSets.forEach(fset=>{
 
 //CreateElement
 //Append Child or Prepend
-// const button = document.createElement
+const comments = document.getElementById("comments");
+const button = document.createElement("button");
+button.textContent="Post"
+
+comments.appendChild(button);
+
+
+// Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)
+//Required in HTML
+
 
 
