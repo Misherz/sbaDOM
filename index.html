@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keepin' Positive</title>
+    <title>I’m just here for the boos.</title>
     <link rel="stylesheet" href="./styles.css">
     <script defer src="./script.js"></script>
 </head>
@@ -17,14 +17,19 @@
                 <a href="#">Forums</a>
             </button>
         </div>
+        <div>
+            <h1>Days to Halloween</h1>
+            <p id="days"></p>
+            <p id="todaysDate">Today's Date:</p>
+        </div>
     </div>
 
 
 <!--Login-->
     <div>
         <fieldset>
-            <form>
-                <input type="email" placeholder="Email">
+            <form type="text">
+                <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
                 <button type="submit">Login</button>
             </form>
@@ -47,18 +52,23 @@
 
 <!--Current Article-->
     <div>
-        <h1>Lorem Ipsum</h1>
+        <h2>Lorem Ipsum</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa temporibus est quis repellat, sunt officia at similique quidem aspernatur placeat accusantium, debitis praesentium recusandae natus sit neque dolores quod sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident animi harum dolorum! Eos molestiae dolorem officiis ducimus. Provident, necessitatibus. Voluptates quaerat adipisci voluptas corporis! Recusandae provident beatae rerum itaque sed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt earum repellendus itaque, quos neque eum dignissimos ducimus enim incidunt similique dolorem placeat dolorum nostrum consectetur pariatur in minima non maiores.</p>
+    </div>
+    <div>
+        <button id="readCP" type="button">Read Creepy Pastas</button>
     </div>
 
 <!--Comments section-->
     <div >
         <fieldset id="comments">
             <div id="Header">
-                <h2>Only positive and helpful comments allowed...</h2>
+                <h2>Only creepy and hauntful comments allowed...</h2>
             </div>
             <!-- <input type="text" placeholder="What's on your mind?"> -->
-            <textarea id="multiText" rows="10" cols="50"></textarea><br>
+            <textarea id="cmtInput" rows="10" cols="50"></textarea><br>
+            <img src="#" alt="Gif">
+            <p id="addedComments"></p>
         </fieldset>
     </div>
 
