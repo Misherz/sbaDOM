@@ -97,7 +97,17 @@ updateDate()
 
 // Iterate over a collection of elements to accomplish some task.
 //HTML Collection - getElementsByTagName() 
-// // Modify at least one attribute of an element in response to user interaction.
+//Modify at least one attribute of an element in response to user interaction.
+//// Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties. []
+let daysToHween = document.getElementsByTagName('h1');
+
+for(let h = 0; h < daysToHween.length; h++){
+    daysToHween[h].addEventListener('click', () => {alert(`We're almost there!`);
+    daysToHween[h].style.backgroundColor="orange";
+    });
+    }
+
+
 
 
 
