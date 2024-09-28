@@ -11,13 +11,16 @@
 
 ### How to get started :
     Countdown timer
-    Alert when you click Halloween
+    Alert when you click Days to Halloween
     Today's date Zoom
 
 
 
 ### Acknowledgement :
     Background blur: https://www.canva.com/p/templates/EAFLYMYKdXg-fondo-de-pantalla-de-halloween-tierno-ilustracion-pastel/
+    Hidden gif: https://pixabay.com/gifs/ghost-halloween-scary-dark-cloth-8811/
+    Google Fonts: Creepster, Matemasie, Courgette
+    Timer:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown
 
 
 ### Github:
