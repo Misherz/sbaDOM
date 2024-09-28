@@ -7,7 +7,7 @@ navBar.style.textAlign = "right";
 //Color for fieldsets[QuerySelectorALl] X
 const fieldSets= document.querySelectorAll("fieldset");
 fieldSets.forEach(fset=>{
-    fset.style.backgroundColor="maroon";
+    fset.style.backgroundColor="rgb(79, 52, 105)";
     fset.style.borderRadius="15px";
     fset.style.padding="1em";
 });
@@ -103,7 +103,8 @@ let daysToHween = document.getElementsByTagName('h1');
 
 for(let h = 0; h < daysToHween.length; h++){
     daysToHween[h].addEventListener('click', () => {alert(`We're almost there!`);
-    daysToHween[h].style.backgroundColor="orange";
+    daysToHween[h].style.backgroundColor="rgb(152, 114, 188)";
+
     });
     }
 

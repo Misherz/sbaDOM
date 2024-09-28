@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I’m just here for the boos.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <script defer src="./script.js"></script>
 </head>
 <body>
+    <div class="backgroundImage"></div>
+
 <!--NavBar-->    
     <div>
         <div id="mainNavBar">
@@ -53,7 +61,9 @@
 <!--Current Article-->
     <div>
         <h2>Lorem Ipsum</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa temporibus est quis repellat, sunt officia at similique quidem aspernatur placeat accusantium, debitis praesentium recusandae natus sit neque dolores quod sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident animi harum dolorum! Eos molestiae dolorem officiis ducimus. Provident, necessitatibus. Voluptates quaerat adipisci voluptas corporis! Recusandae provident beatae rerum itaque sed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt earum repellendus itaque, quos neque eum dignissimos ducimus enim incidunt similique dolorem placeat dolorum nostrum consectetur pariatur in minima non maiores.</p>
+        <h3>Author</h3>
+        <h4>Date</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa temporibus est quis repellat, sunt officia at similique quidem aspernatur placeat accusantium, debitis praesentium recusandae natus sit neque dolores quod sapiente? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident animi harum dolorum! Eos molestiae dolorem officiis ducimus. Provident, necessitatibus. Voluptates quaerat adipisci voluptas corporis! Recusandae provident beatae rerum itaque sed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt earum repellendus itaque, quos neque eum dignissimos ducimus enim incidunt similique dolorem placeat dolorum nostrum consectetur pariatur in minima non maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione distinctio nulla quis earum impedit quibusdam quae quia magni quam a molestiae praesentium, quo veniam nemo dolorum? Ullam itaque sed soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veniam reiciendis tenetur deserunt adipisci iste facilis incidunt, blanditiis debitis saepe tempore ut, aliquid rerum inventore id explicabo impedit perspiciatis fugit.</p>
     </div>
     <div>
         <button id="readCP" type="button">Read Creepy Pastas</button>
@@ -63,18 +73,20 @@
     <div >
         <fieldset id="comments">
             <div id="Header">
-                <h2>Only creepy and hauntful comments allowed...</h2>
+                <h2 id="haunt">Only creepy and hauntful comments allowed...</h2>
             </div>
             <!-- <input type="text" placeholder="What's on your mind?"> -->
-            <textarea id="cmtInput" rows="10" cols="50"></textarea><br>
+            <textarea id="cmtInput" rows="10" cols="50" placeholder="Don’t ghost us! Share your spooky thoughts on the article below—your comments might just raise the spirits!"></textarea><br>
             <p id="addedComments"></p>
         </fieldset>
     </div>
 
  <!--Contact--> 
-    <div>
-        <a href="#">Contact Us</a><br>
-        <a href="#">About</a>
+    <div id="aboutContact">
+        <a href="#" >Contact Us</a><br>
+        <a href="#">About</a><br>
+        <a href="#">Careers</a><br>
+        <a href="#">Social</a><br>
     </div>
     
 
