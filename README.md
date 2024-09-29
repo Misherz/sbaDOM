@@ -1,4 +1,4 @@
-# SBA Project: Kitty Boook Store
+# SBA Project: 90s-Themed Halloween Blog
 ### Description: 
    Your 90s themed Halloween Blog.
 
@@ -12,8 +12,10 @@
 ### How to get started :
     Countdown timer
     Alert when you click Days to Halloween
-    Today's date Zoom
-
+    Ghost Zoom next to chat box
+    Comment and post
+    Read Creepy Pasta takes you to creepy pasta site
+    Min password/Username requirements
 
 
 ### Acknowledgement :
